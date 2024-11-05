@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Usuário</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="container">
+        <h2>Criar Novo Usuário</h2>
+        <form action="{{ url_for('main.create') }}" method="post">  <!-- Corrigido -->
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>    
+        
+            <div class="button-container">
+                <button type="submit">Criar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
