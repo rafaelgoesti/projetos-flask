@@ -1,4 +1,4 @@
-# 🚀 Projeto de Aplicativo
+# 🚀 Projeto CRUD com Flask
 
 ![Capa do Projeto](image.png)  <!-- Substitua pelo caminho da sua imagem de capa -->
 
